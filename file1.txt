@@ -1,0 +1,38 @@
+if b<a:
+    print("Yes a is greater than b")
+    print(b)
+    print(a*b)
+
+else:
+    print("b is greater")
+    print(a)
+
+#### elif
+a = 25
+b = 18
+
+if b > a:
+    print("if condtion, b greater")
+
+elif a == b:
+    print("you are in elif condition, equal")
+
+else:
+    print("else condition, a is greater")
+
+### and
+a = 200
+b = 30
+c = 20
+
+if a>b and c>b:
+    print("b is smallest, AND condition")
+
+else:
+    print("b is not smaller")
+
+### OR
+
+a = 200
+b = 30
+c = 20
