@@ -1,7 +1,10 @@
+## This is a sentence maker app
+
 def sentence_maker(phrase):
     intr = ("how", "why", "what", "whom", "who", "where", "when")
     capitalized = phrase.capitalize()
 
+## check the line starts with
     if phrase.startswith(intr):
         return "{}?".format(capitalized)
 
